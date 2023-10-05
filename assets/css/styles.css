@@ -18,8 +18,10 @@ colour palette for the site:
     position: absolute;
     display: inline-block;
     text-align: center;
+    background-color: #cdcdcd;
 }
 
 .logo {
     width: 10%;  
 }
+
