@@ -68,3 +68,8 @@ img {
     top: 15px;
     right: -40px;
 }
+
+.results {
+    font-size: 2rem;
+    color: #cdcdcd;
+}
