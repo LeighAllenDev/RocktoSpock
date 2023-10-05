@@ -48,3 +48,10 @@ img {
     padding: 20px 30px;
     position: relative;
 }
+
+.player {
+    background-color: #214E34;
+    color: #cdcdcd;
+    font-size: 20px;
+    padding: 4px 10px;
+}
