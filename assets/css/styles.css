@@ -14,14 +14,17 @@ colour palette for the site:
     text-align: center;
 }
 
-.header {
-    position: absolute;
-    display: inline-block;
+header {
     text-align: center;
     background-color: #cdcdcd;
+    padding: 20px auto;
+    
 }
 
 .logo {
     width: 10%;  
 }
 
+body {
+    background-color: #011638;
+}
