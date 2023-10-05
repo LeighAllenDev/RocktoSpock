@@ -17,8 +17,9 @@ colour palette for the site:
 header {
     text-align: center;
     background-color: #cdcdcd;
-    padding: 20px auto;
-    
+    padding: 20px;
+    color: #011638;
+
 }
 
 .logo {
@@ -26,5 +27,5 @@ header {
 }
 
 body {
-    background-color: #011638;
+    background-color: #364156;
 }
