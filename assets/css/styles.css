@@ -33,6 +33,16 @@ body {
     font-family: 'Press Start 2P', sans-serif;
 }
 
+.hands {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.hand {
+    display: inline-block;
+}
+
 img {
     max-height: 100px;
 }
@@ -71,12 +81,12 @@ img {
 
 .results {
     font-size: 2rem;
-    color: #cdcdcd;
+    color: #DFF8EB;
     padding: 1rem;
 }
 
 #action-message {
     font-size: large;
     padding: 1rem;
-    color: #cdcdcd;
+    color: #DFF8EB;
 }
