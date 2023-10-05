@@ -48,6 +48,11 @@ body {
     transition: all 0.3s ease;
 }
 
+.hand:hover {
+    background-color: #011638;
+    cursor: pointer;
+}
+
 img {
     max-height: 100px;
 }
