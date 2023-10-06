@@ -28,6 +28,18 @@ function win(userHand, cpuHand) {
     results_p.innerHTML = `${userHand} Beats ${cpuHand}, You win!`;
 }
 
+function loose(userHand, cpuHand) {
+    cpuScore++;
+    userScore_span.innerHTML = userScore;
+    cpuScore_span.innerHTML = cpuScore;
+    results_p.innerHTML = `${cpuHand} Beats ${userHand}, You Loose!`;
+}
+
+function draw(userHand, cpuHand) {
+    userScore_span.innerHTML = userScore;
+    cpuScore_span.innerHTML = cpuScore;
+    results_p.innerHTML = `${userHand} is equal to ${cpuHand}, it's a draw!`;
+}
 
 function main() {
     rock_div.addEventListener("click", () => game("Rock"));
