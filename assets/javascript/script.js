@@ -13,3 +13,10 @@ const scissors_div = document.getElementById('Scissors');
 const lizard_div = document.getElementById('Lizard');
 const spock_div = document.getElementById('Spock');
 
+/** get Computer Choice for game */
+function getComputerChoice() {
+    const choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
+    const randomNumber = Math.floor(Math.random() * 5);
+    return choices[randomNumber];
+}
+
