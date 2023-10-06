@@ -4,6 +4,7 @@ const userScore_span = document.getElementById('user-score');
 const cpuScore_span = document.getElementById('cpu-score');
 const scoreBoard_div = document.getElementsByClassName('scores');
 const results_p = document.querySelector('.results > p');
+const userHand_div = document.getElementById(userHand);
 /**
  * Game button divs 
  */
@@ -14,11 +15,19 @@ const lizard_div = document.getElementById('Lizard');
 const spock_div = document.getElementById('Spock');
 
 /** get Computer Choice for game */
-function getComputerChoice() {
-    const choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
+function getCpuHand() {
+    const hands = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
     const randomNumber = Math.floor(Math.random() * 5);
-    return choices[randomNumber];
+    return hands[randomNumber];
 }
+
+function win(userHand, cpuHand) {
+    userScore++;
+    userScore_span.innerHTML = userScore;
+    cpuScore_span.innerHTML = cpuScore;
+    results_p.innerHTML = `${userHand} Beats ${cpuHand}, You win!`;
+}
+
 
 function main() {
     rock_div.addEventListener("click", () => game("Rock"));
