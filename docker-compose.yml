@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  rocktospock:
+    image: rocktospock
+    build:
+      context: .
+      dockerfile: ./Dockerfile
