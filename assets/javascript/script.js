@@ -38,3 +38,5 @@ function main() {
 }
 
 main();
+
+/* find out how to end the game */
