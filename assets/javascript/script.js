@@ -20,3 +20,12 @@ function getComputerChoice() {
     return choices[randomNumber];
 }
 
+function main() {
+    rock_div.addEventListener("click", () => game("Rock"));
+    paper_div.addEventListener("click", () => game("Paper"));
+    scissors_div.addEventListener("click", () => game("Scissors"));
+    lizard_div.addEventListener("click", () => game("Lizard"));
+    spock_div.addEventListener("click", () => game("Spock"));
+}
+
+main();
