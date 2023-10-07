@@ -24,6 +24,8 @@ function win(userHand, cpuHand) {
     userScore_span.innerHTML = userScore;
     cpuScore_span.innerHTML = cpuScore;
     results_p.innerHTML = `${userHand} Beats ${cpuHand}, You win!`;
+    userHand_div.classList.add('green-border');
+    setTimeout(() => userHand_div.classList.remove('green-border'), 1500);
 }
 
 function loose(userHand, cpuHand) {
