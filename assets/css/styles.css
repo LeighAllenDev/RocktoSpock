@@ -109,28 +109,47 @@ img {
 /* Media Queries for smaller devices */
 @media screen and (max-width: 600px) {
     #action-message {
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 
     h1 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .results {
-        font-size: 1rem;
-        padding: 0;
+        font-size: 1.25rem;
+        padding: auto 1rem;
+        line-height: 1.75rem;
     }
 
     .scores {
         width: 40%;
-        padding: 1%;
-        
+        padding: 5%;  
+    }
+
+    .hands {
+        margin-top: 2%;
+        margin-bottom: 5%;
     }
 
     .hand {
         padding: inherit;
         margin: auto;
     }
+
+    #user-label {
+        position: absolute;
+        top: 50px;
+        left: -20px;
+    }
+    
+    #cpu-label {
+        position: absolute;
+        top: 50px;
+        right: -20px;
+    }
+
+
 
 
 }
