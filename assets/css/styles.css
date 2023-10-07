@@ -101,3 +101,9 @@ img {
     margin-top: 10px;
     color: #DFF8EB;
 }
+
+/* Changing Border colors for win, loose and draw */
+.green-border {
+    border: 5px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
