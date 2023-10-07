@@ -56,7 +56,24 @@ function game(userHand) {
         case "SpockScissors":
             win(userHand, cpuHand);
             break;
-        
+        case "RockPaper":
+        case "RockSPock":
+        case "ScissorsRock":
+        case "ScissorsSpock":
+        case "PaperScissors":
+        case "PaperSpock":
+        case "LizardScissors":
+        case "LizardRock":
+        case "SpockPaper":
+        case "SpockLizard":
+            loose(userHand, cpuHand);
+            break;
+        case "RockRock":
+        case "PaperPaper":
+        case "ScissorsScissors":
+        case "LizardLizard":
+        case "SpockSpock":
+            draw(userHand, cpuHand);
     }
 
 }
