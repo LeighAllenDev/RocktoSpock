@@ -107,3 +107,8 @@ img {
     border: 5px solid #4dcc7d;
     box-shadow: 0 0 10px #31b43a;
 }
+
+.red-border {
+    border: 5px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
