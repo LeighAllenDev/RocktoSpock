@@ -41,6 +41,26 @@ function draw(userHand, cpuHand) {
     results_p.innerHTML = `${userHand} is equal to ${cpuHand}, it's a draw!`;
 }
 
+function game(userHand) {
+    const cpuHand = getCpuHand();
+    switch (userHand + cpuHand) {
+        case "RockScissors":
+        case "RockLizard":
+        case "PaperSpock":
+        case "PaperRock":
+        case "ScissorsPaper":
+        case "ScissorsLizard":
+        case "LizardSpock":
+        case "LizardPaper":
+        case "SpockRock":
+        case "SpockScissors":
+            win(userHand, cpuHand);
+            break;
+        
+    }
+
+}
+
 function main() {
     rock_div.addEventListener("click", () => game("Rock"));
     paper_div.addEventListener("click", () => game("Paper"));
