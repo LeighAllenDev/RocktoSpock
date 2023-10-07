@@ -34,6 +34,8 @@ function loose(userHand, cpuHand) {
     userScore_span.innerHTML = userScore;
     cpuScore_span.innerHTML = cpuScore;
     results_p.innerHTML = `${cpuHand} Beats ${userHand}, You Loose!`;
+    userHand_div.classList.add('red-border');
+    setTimeout(() => userHand_div.classList.remove('red-border'), 1500);
 }
 
 function draw(userHand, cpuHand) {
