@@ -43,6 +43,8 @@ function draw(userHand, cpuHand) {
     userScore_span.innerHTML = userScore;
     cpuScore_span.innerHTML = cpuScore;
     results_p.innerHTML = `${userHand} is equal to ${cpuHand}, it's a draw!`;
+    userHand_div.classList.add('grey-border');
+    setTimeout(() => userHand_div.classList.remove('grey-border'), 1500);
 }
 
 function game(userHand) {
