@@ -112,3 +112,8 @@ img {
     border: 5px solid #fc121b;
     box-shadow: 0 0 10px #d01115;
 }
+
+.grey-border {
+    border: 5px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
