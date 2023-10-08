@@ -27,6 +27,15 @@ let isGameOver = (score) => {
     }
 }
 
+function gameOver() {
+    let winner = userScore === 10 ? user[0] : user[1];
+    results_p.innerHTML = `Score limit reached. ${winner} Wins the game! <br> Final Scores = You:${userScore}, CPU:${cpuScore}`;
+    userScore = 0;
+    cpuScore = 0;
+    userScore_span.innerHTML = userScore;
+    cpuScore_span.innerHTML = cpuScore;
+}
+
 function win(userHand, cpuHand) {
     userScore++;
     const userHand_div = document.getElementById(userHand);
@@ -35,6 +44,9 @@ function win(userHand, cpuHand) {
     results_p.innerHTML = `${userHand} Beats ${cpuHand}, You win!`;
     userHand_div.classList.add('green-border');
     setTimeout(() => userHand_div.classList.remove('green-border'), 1500);
+    if (isGameOver()) {
+        return gameOver();
+    }
 }
 
 function loose(userHand, cpuHand) {
@@ -45,6 +57,9 @@ function loose(userHand, cpuHand) {
     results_p.innerHTML = `${cpuHand} Beats ${userHand}, You Loose!`;
     userHand_div.classList.add('red-border');
     setTimeout(() => userHand_div.classList.remove('red-border'), 1500);
+    if (isGameOver()) {
+        return gameOver();
+    }
 }
 
 function draw(userHand, cpuHand) {
@@ -54,6 +69,9 @@ function draw(userHand, cpuHand) {
     results_p.innerHTML = `${userHand} is equal to ${cpuHand}, it's a draw!`;
     userHand_div.classList.add('grey-border');
     setTimeout(() => userHand_div.classList.remove('grey-border'), 1500);
+    if (isGameOver()) {
+        return gameOver();
+    }
 }
 
 function game(userHand) {
