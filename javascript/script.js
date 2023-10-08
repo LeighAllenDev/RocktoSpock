@@ -1,5 +1,6 @@
 let userScore = 0;
 let cpuScore = 0;
+let user = ['user', 'cpu'];
 const userScore_span = document.getElementById('user-score');
 const cpuScore_span = document.getElementById('cpu-score');
 const scoreBoard_div = document.getElementsByClassName('scores');
@@ -16,6 +17,14 @@ function getCpuHand() {
     const hands = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
     const randomNumber = Math.floor(Math.random() * 5);
     return hands[randomNumber];
+}
+
+let isGameOver = (score) => {
+    if (userScore === 10 || cpuScore === 10) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 function win(userHand, cpuHand) {
