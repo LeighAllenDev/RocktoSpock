@@ -49,6 +49,6 @@ The target audience of this site are:
 The site aims to give the user the ability to play Rock Paper Scissors Lizard Spock whenever they feel like playing.
 
 ### Colour Scheme
-
+The colour 
 
 ### Typography
