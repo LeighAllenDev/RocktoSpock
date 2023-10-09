@@ -29,7 +29,7 @@ let isGameOver = (score) => {
 
 function gameOver() {
     let winner = userScore === 10 ? user[0] : user[1];
-    results_p.innerHTML = `Game Over <br> ${winner} win! <br> Final Scores <br> You:${userScore}, CPU:${cpuScore}`;
+    results_p.innerHTML = `Game Over <br> Winner = ${winner} <br> Final Scores <br> You:${userScore}, CPU:${cpuScore}`;
     userScore = 0;
     cpuScore = 0;
     userScore_span.innerHTML = userScore;
