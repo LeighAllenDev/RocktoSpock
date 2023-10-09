@@ -94,7 +94,7 @@ function game(userHand) {
         case "ScissorsRock":
         case "ScissorsSpock":
         case "PaperScissors":
-        case "PaperSpock":
+        case "PaperLizard":
         case "LizardScissors":
         case "LizardRock":
         case "SpockPaper":
