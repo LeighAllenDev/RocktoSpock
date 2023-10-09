@@ -1,6 +1,6 @@
 let userScore = 0;
 let cpuScore = 0;
-let user = ['user', 'cpu'];
+let user = ['You', 'Computer'];
 const userScore_span = document.getElementById('user-score');
 const cpuScore_span = document.getElementById('cpu-score');
 const scoreBoard_div = document.getElementsByClassName('scores');
@@ -29,7 +29,7 @@ let isGameOver = (score) => {
 
 function gameOver() {
     let winner = userScore === 10 ? user[0] : user[1];
-    results_p.innerHTML = `Score limit reached. ${winner} Wins the game! <br> Final Scores = You:${userScore}, CPU:${cpuScore}`;
+    results_p.innerHTML = `Game Over <br> ${winner} win! <br> Final Scores <br> You:${userScore}, CPU:${cpuScore}`;
     userScore = 0;
     cpuScore = 0;
     userScore_span.innerHTML = userScore;
