@@ -65,7 +65,7 @@ function loose(userHand, cpuHand) {
     Swal.fire({
         position: 'center',
         icon: 'error',
-        title: 'Your work has been saved',
+        title: 'You Loose',
         showConfirmButton: false,
         timer: 1500
       })
@@ -84,7 +84,7 @@ function draw(userHand, cpuHand) {
     Swal.fire({
         position: 'center',
         icon: 'info',
-        title: 'Your work has been saved',
+        title: "It's a draw...",
         showConfirmButton: false,
         timer: 1500
       })
