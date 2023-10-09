@@ -42,6 +42,13 @@ function win(userHand, cpuHand) {
     userScore_span.innerHTML = userScore;
     cpuScore_span.innerHTML = cpuScore;
     results_p.innerHTML = `${userHand} Beats ${cpuHand}, You win!`;
+    Swal.fire({
+        position: 'center',
+        icon: 'success', 
+        title: 'You Win!',
+        showConfirmButton: false,
+        timer: 1500
+      })
     userHand_div.classList.add('green-border');
     setTimeout(() => userHand_div.classList.remove('green-border'), 1500);
     if (isGameOver()) {
@@ -55,6 +62,13 @@ function loose(userHand, cpuHand) {
     userScore_span.innerHTML = userScore;
     cpuScore_span.innerHTML = cpuScore;
     results_p.innerHTML = `${cpuHand} Beats ${userHand}, You Loose!`;
+    Swal.fire({
+        position: 'center',
+        icon: 'error',
+        title: 'Your work has been saved',
+        showConfirmButton: false,
+        timer: 1500
+      })
     userHand_div.classList.add('red-border');
     setTimeout(() => userHand_div.classList.remove('red-border'), 1500);
     if (isGameOver()) {
@@ -67,6 +81,13 @@ function draw(userHand, cpuHand) {
     userScore_span.innerHTML = userScore;
     cpuScore_span.innerHTML = cpuScore;
     results_p.innerHTML = `${userHand} is equal to ${cpuHand}, it's a draw!`;
+    Swal.fire({
+        position: 'center',
+        icon: 'info',
+        title: 'Your work has been saved',
+        showConfirmButton: false,
+        timer: 1500
+      })
     userHand_div.classList.add('grey-border');
     setTimeout(() => userHand_div.classList.remove('grey-border'), 1500);
     if (isGameOver()) {
