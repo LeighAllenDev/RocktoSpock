@@ -106,6 +106,19 @@ img {
     box-shadow: 0 0 10px #25292b;
 }
 
+/* Reset Button*/
+#play-again {
+    display: block;
+    position: absolute;
+    border: 5px solid #cdcdcd;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', sans-serif;
+    padding: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* Media Queries for smaller devices */
 @media screen and (max-width: 600px) {
     #action-message {
