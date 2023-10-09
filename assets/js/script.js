@@ -90,7 +90,7 @@ function game(userHand) {
             win(userHand, cpuHand);
             break;
         case "RockPaper":
-        case "RockSPock":
+        case "RockSpock":
         case "ScissorsRock":
         case "ScissorsSpock":
         case "PaperScissors":
@@ -120,5 +120,3 @@ function main () {
 }
 
 main();
-
-/* find out how to end the game */
