@@ -1,6 +1,3 @@
-let userScore = 0;
-let cpuScore = 0;
-let user = ['You', 'Computer'];
 const userScore_span = document.getElementById('user-score');
 const cpuScore_span = document.getElementById('cpu-score');
 const scoreBoard_div = document.getElementsByClassName('scores');
@@ -12,6 +9,11 @@ const scissors_div = document.getElementById('Scissors');
 const lizard_div = document.getElementById('Lizard');
 const spock_div = document.getElementById('Spock');
 
+let userScore = 0;
+let cpuScore = 0;
+let user = ['You', 'Computer'];
+let canPlay = true;
+
 /** get Computer Choice for game */
 function getCpuHand() {
     const hands = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
@@ -20,12 +22,21 @@ function getCpuHand() {
 }
 
 let isGameOver = (score) => {
-    if (userScore === 10 || cpuScore === 10) {
-        return true;
-    } else {
-        return false;
-    }
+    return userScore === 10 || cpuScore === 10 
 }
+
+function disableButtons() {
+    const buttons = document.querySelectorAll('.hand');
+    buttons.forEach(button => button.disabled = true);
+    canPlay = false;
+}
+
+function enableButtons() {
+    const buttons = document.querySelectorAll('.hand');
+    buttons.forEach(button => button.disabled = false);
+    canPlay = true;
+}
+
 
 function gameOver() {
     let winner = userScore === 10 ? user[0] : user[1];
@@ -96,6 +107,12 @@ function draw(userHand, cpuHand) {
 }
 
 function game(userHand) {
+    if (!canPlay || isGameOver()) {
+        return;
+    }
+
+disableButtons();
+
     const cpuHand = getCpuHand();
     switch (userHand + cpuHand) {
         case "RockScissors":
@@ -129,6 +146,7 @@ function game(userHand) {
         case "SpockSpock":
             draw(userHand, cpuHand);
     }
+    setTimeout(enableButtons, 1500);
 
 }
 
