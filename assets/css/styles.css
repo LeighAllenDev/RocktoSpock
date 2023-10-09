@@ -108,9 +108,10 @@ img {
 
 /* Reset Button*/
 #play-again {
-    display: block;
+    display: none;
     position: absolute;
     border: 5px solid #cdcdcd;
+    color: #011638;
     border-radius: 10px;
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
