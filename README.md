@@ -4,9 +4,7 @@
 
 ## Site Overview
 
-Rock to Spock is my take on the classic Rock, Paper, Scissors game with the added rules from the popular TV show:
-
-**The Big Bang Theory**
+Rock to Spock is my take on the classic Rock, Paper, Scissors game with the added rules from the popular TV show: **The Big Bang Theory**
 
 The aim of the site is to allow the user to play rock, Paper, Scissors, Lizard, Spock agaianst the Computer to determine the winner of the game, the first to reach the score limit of 10 Wins!.
 
@@ -38,6 +36,18 @@ A future implementation I would like to achieve with this project is to make it 
  	* [Site Aims](#site-aims)
 	* [Colour Scheme](#colour-scheme)
 	* [Typography](#typography)
+3. [Current Features](#current-features)
+	* [Game Features](#game-functionality)
+	* [Site Features](#site-features)
+4. [Future Enhancements](#future-enhancements)
+5. [Testing Phase](#testing-phase)
+6. [Deployment](#deployment)
+7. [Technologies](#technologies)
+8. [Credits](#credits)
+	* [Honorable Mentions](#honorable-mentions)
+	* [General Reference](#general-reference)
+	* [Content](#content)
+	* [Media](#media)
 
 ## Planning Stage
 
@@ -92,3 +102,36 @@ For the project I used the font Press Start 2P which I found while searching on 
 
 I used the same font across the website for added consistency as it makes for a more uniform design.
 
+## Current Features
+
+### Game Functionality
+The game currently gives the user the ability to play against the computer and the first to reach the score limit of 10 wins the game.
+
+The computer functionality is achieved with a random number generator function which asigns a number between 1 and 5 to one of the 5 available choices.
+
+When the user makes a selection a message pops up to identify whether they win or loose the round. The score is then updated and it counts up to 10 for either the player or the computer.
+
+When the game is over a button will appear to ask the player of they would like to play again.
+
+### Site Features
+The site uses a common colour scheme and the same font across all elements for consistancy and to improve the user experience. 
+
+The icons were found on 
+
+## Future Enhancements
+
+## Testing Phase
+
+## Deployment
+
+## Technologies
+
+## Credits
+
+### Honorable Mentions
+
+### General Reference
+
+### Content
+
+### Media
