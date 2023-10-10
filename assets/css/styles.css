@@ -132,12 +132,10 @@ img {
 
     .results {
         font-size: 1.25rem;
-        padding: auto 1rem;
         line-height: 1.75rem;
     }
 
     .scores {
-        width: 40%;
         padding: 5%;  
     }
 
@@ -148,7 +146,7 @@ img {
 
     .hand {
         padding: inherit;
-        margin: auto;
+        margin: inherit;
     }
 
     #user-label {
