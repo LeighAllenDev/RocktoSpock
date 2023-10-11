@@ -1,7 +1,7 @@
 # Rock to Spock!
 
 **Code Institute** Learner Project 02
-
+![Am I Resonsive? Screenshot](/assets/images/AmIResponsive.jpeg)
 
 ## Site Overview
 
@@ -148,6 +148,7 @@ These enhancements are:
 ## Credits
 
 ### Honorable Mentions
+
 
 ### General Reference
 
