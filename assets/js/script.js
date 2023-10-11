@@ -40,7 +40,7 @@ function enableButtons() {
 
 function gameOver() {
     let winner = userScore === 10 ? user[0] : user[1];
-    results_p.innerHTML = `Game Over <br><br> Winner = ${winner}`;
+    results_p.innerHTML = 'Game Over';
     
 
     const playAgainButton = document.getElementById('play-again');
