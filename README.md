@@ -132,6 +132,11 @@ The icons I used were:
 When the user makes a choice there is a pop up message to let them know whether they win, draw or loose, as well as text to describe the outcome and what the computer picked. This was achieved with the help of Sweet Alerts, more information can be found in the Credits section.
 
 ## Future Enhancements
+Although this project functions as much as it needs to for the project requirements, there are a few enhancements I would like to achieve in the future. 
+
+These enhancements are:
+* The Ability to play against another player rather than the computer, this could be achieved by making it a turn based game and having the functions to determine which user answer would win, similar to how it currently functions.
+* 
 
 ## Testing Phase
 
