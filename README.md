@@ -140,6 +140,7 @@ These enhancements are:
 * The ability to change the score limit to give users more flexibility rather than a fixed limit of 10. For example some users may only want to play 10 rounds, or score a total of 5.
 
 ## Testing Phase
+There has been extensive testing to this site and it has not been built without it's challenges. 
 
 ## Deployment
 
