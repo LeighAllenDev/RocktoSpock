@@ -139,6 +139,10 @@ img {
         padding: 5%;  
     }
 
+    img {
+        max-height: 75px;
+    }
+
     .hands {
         margin-top: 2%;
         margin-bottom: 5%;
