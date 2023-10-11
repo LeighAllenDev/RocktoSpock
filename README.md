@@ -136,7 +136,7 @@ Although this project functions as much as it needs to for the project requireme
 
 These enhancements are:
 * The Ability to play against another player rather than the computer, this could be achieved by making it a turn based game and having the functions to determine which user answer would win, similar to how it currently functions.
-* 
+* The ability to change the score limit to give users more flexibility rather than a fixed limit of 10. For example some users may only want to play 10 rounds, or score a total of 5.
 
 ## Testing Phase
 
