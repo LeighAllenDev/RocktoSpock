@@ -168,6 +168,9 @@ W3C CSS Validator:
 Lighthouse:
 ![lighthouse](./assets/images/lighthouse.jpeg)
 
+JShint:
+This validator returned 39 "warnings", all of which were that the javaScript code used is for ES6.
+
 #### Issues
 One issue I faced with this project was getting the JS script to work on the webpage. This was resolved with the help of my Mentor who informed me that I needed to start the link with ./ rather than just the file name. 
 
