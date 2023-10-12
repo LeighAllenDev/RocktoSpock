@@ -53,7 +53,6 @@ function enableButtons() {
  * function that determines who wins the game
  */
 function gameOver() {
-    let winner = userScore === 10 ? user[0] : user[1];
     results_p.innerHTML = 'Game Over';
     
 
