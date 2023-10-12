@@ -145,10 +145,17 @@ There has been extensive testing to this site and it has not been built without 
 
 I needed to test the functionality and design of this website very early on in the creative process, so I deployed it on GitHub pages during the development process, this allowed me to not only test it on my MacBook Air, but also an iPhone 14 Pro, a couple of android phones and my iPad Air.
 
+It took a lot of work to make the site look how I wanted it to on a small devices while keeping it looking how I expected it on larger devices.
+
 #### Issues
+One issue I faced with this project was getting the JS script to work on the webpage. This was resolved with the help of my Mentor who informed me that I needed to start the link with ./ rather than just the file name. 
+
+During the testing phase it turned out that the buttons were spam-clickable, this was affecting the results table and breaking the game after 5 turns. This was fixed by adding a function that disabled the buttons for 1500ms and then re-enabled them again.
+
+There was a bug in my code So that 2 of the possible outcomes were missing, this also caused the game to stop working. This, again was picked up by my Mentor and I was able to add the missing outcomes into the code which prevented this issue from happening again. 
 
 ## Deployment
-I deployed my site onto GitHub Pages using the following steps:
+I deployed my site onto **GitHub Pages** using the following steps:
 1. Open GitHub projects repository and click on the **Settings** tab at the top.
 2. In the menu on the left side of the page, select the **Pages** tab.
 3. Under **Build and Development**, Select **Main** from the **Source** dropdown menu then click **Save**.
