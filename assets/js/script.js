@@ -1,6 +1,5 @@
 const userScore_span = document.getElementById('user-score');
 const cpuScore_span = document.getElementById('cpu-score');
-const scoreBoard_div = document.getElementsByClassName('scores');
 const results_p = document.querySelector('.results > p');
 
 const rock_div = document.getElementById('Rock');
@@ -11,7 +10,6 @@ const spock_div = document.getElementById('Spock');
 
 let userScore = 0;
 let cpuScore = 0;
-let user = ['You', 'Computer'];
 let canPlay = true;
 
 /**
