@@ -24,7 +24,11 @@ function getCpuHand() {
     return hands[randomNumber];
 }
 
-
+/**
+ * Function to check the scores total
+ * @param {Number} score 
+ * @returns stop game if score limit reached
+ */
 let isGameOver = (score) => {
     return userScore === 10 || cpuScore === 10 
 }
@@ -124,7 +128,7 @@ function loose(userHand, cpuHand) {
     }
 }
 /**
- * Fucntion that determines if the user and the computer draw the same round
+ * Function that determines if the user and the computer draw the same round
  * @param {string} userHand 
  * @param {string} cpuHand 
  * @returns a string to say the hands draw
