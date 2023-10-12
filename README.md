@@ -149,7 +149,11 @@ It took a lot of work to make the site look how I wanted it to on a small device
 
 I have tested my project on some offical validators.
 
-W3C css validator came back with no issues
+Nu HTML Checker:
+![Nu HTML Checker](./assets/images/NuChecker.jpeg)
+
+W3C CSS Validator:
+![w3c validator](./assets/images/w3cvalidator.jpeg)
 
 <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -160,6 +164,9 @@ W3C css validator came back with no issues
             src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
             alt="Valid CSS!" />
     </a>
+
+Lighthouse:
+![lighthouse](./assets/images/lighthouse.jpeg)
 
 #### Issues
 One issue I faced with this project was getting the JS script to work on the webpage. This was resolved with the help of my Mentor who informed me that I needed to start the link with ./ rather than just the file name. 
