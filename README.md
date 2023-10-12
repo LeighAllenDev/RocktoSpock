@@ -138,13 +138,23 @@ Although this project functions as much as it needs to for the project requireme
 These enhancements are:
 * The Ability to play against another player rather than the computer, this could be achieved by making it a turn based game and having the functions to determine which user answer would win, similar to how it currently functions.
 * The ability to change the score limit to give users more flexibility rather than a fixed limit of 10. For example some users may only want to play 10 rounds, or score a total of 5.
+* Eventually I would like to make the site be able to give specific messages depending on the outcome of the round, for example *Paper Disproves Spock* rather than *Paper beats Spock*.
 
 ## Testing Phase
 There has been extensive testing to this site and it has not been built without it's challenges. I have overcome a number of issues with this site while trying to perfect it. However, there are still a few bugs which are yet to be ironed out.
 
+I needed to test the functionality and design of this website very early on in the creative process, so I deployed it on GitHub pages during the development process, this allowed me to not only test it on my MacBook Air, but also an iPhone 14 Pro, a couple of android phones and my iPad Air.
+
 #### Issues
 
 ## Deployment
+I deployed my site onto GitHub Pages using the following steps:
+1. Open GitHub projects repository and click on the **Settings** tab at the top.
+2. In the menu on the left side of the page, select the **Pages** tab.
+3. Under **Build and Development**, Select **Main** from the **Source** dropdown menu then click **Save**.
+4. Once completing these steps, a message is displayed confirming **Successful Deployment**
+
+The live website can be found by following the URL - https://leighAllenDev.github.io/RocktoSpock
 
 ## Technologies
 
