@@ -127,10 +127,8 @@ img {
 
 /* Media Queries for smaller devices */
 @media screen and (max-width: 600px) {
-    #action-message {
-        font-size: 1rem;
-    }
-
+    
+    /* header */
     header {
         padding: 10px;
     }
@@ -139,19 +137,12 @@ img {
         font-size: 1.5rem;
     }
 
-    .results {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+    /* Action message */
+    #action-message {
+        font-size: 1rem;
     }
 
-    .scores {
-        padding: 5%;  
-    }
-
-    img {
-        max-height: 75px;
-    }
-
+    /* User Buttons */
     .hands {
         margin-top: 2%;
         margin-bottom: 2%;
@@ -159,6 +150,22 @@ img {
 
     .hand {
         margin: inherit;
+    }
+
+    img {
+        max-height: 75px;
+    }
+
+    /* Results */
+    .results {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        padding: 0 1rem;
+    }
+
+    /* Score board */
+    .scores {
+        padding: 5%;  
     }
 
     #user-label {
@@ -172,14 +179,4 @@ img {
         top: 50px;
         right: -20px;
     }
-
-    .results {
-        font-size: 1rem;
-        line-height: 1.25rem;
-        padding: 0 1rem;
-    }
-
-
-
-
 }
