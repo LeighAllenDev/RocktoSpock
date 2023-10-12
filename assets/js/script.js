@@ -149,7 +149,7 @@ function draw(userHand, cpuHand) {
 /**
  * Function that enables the user to play the game
  * @param {string} userHand 
- * @returns 
+ * @returns the game
  */
 function game(userHand) {
     if (!canPlay || isGameOver()) {
