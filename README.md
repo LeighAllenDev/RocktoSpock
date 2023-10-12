@@ -147,6 +147,20 @@ I needed to test the functionality and design of this website very early on in t
 
 It took a lot of work to make the site look how I wanted it to on a small devices while keeping it looking how I expected it on larger devices.
 
+I have tested my project on some offical validators.
+
+W3C css validator came back with no issues
+
+<a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a><a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+
 #### Issues
 One issue I faced with this project was getting the JS script to work on the webpage. This was resolved with the help of my Mentor who informed me that I needed to start the link with ./ rather than just the file name. 
 
