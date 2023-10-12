@@ -196,6 +196,35 @@ Another site I found extremely helpful for this project was **Stack Overflow**. 
 
 For this project I also relied on MDN Webdocs and w3Schools.
 
-### Content
+## Content
+The font used for this site is 'Press Start 2P' from GoogleFonts
+
+Code snipets potentially from slack, stack overflow and FreeCodeCamp
 
 ### Media
+
+**Flaticon Icons**
+
+Rock: 
+
+Rocker icons created by Eucalyp - Flaticon https://www.flaticon.com/free-icons/rocker
+
+Paper:
+
+Hand up icons created by Freepik - Flaticon  
+https://www.flaticon.com/free-icons/hand-up
+
+Scissors:
+
+Scissors icons created by Freepik - Flaticon  
+https://www.flaticon.com/free-icons/scissors
+
+Lizard:
+
+Italian icons created by Paul J. - Flaticon  
+https://www.flaticon.com/free-icons/italian
+
+Spock:
+
+Star trek icons created by Freepik - Flaticon  
+https://www.flaticon.com/free-icons/star-trek
