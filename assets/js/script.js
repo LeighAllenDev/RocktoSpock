@@ -14,30 +14,42 @@ let cpuScore = 0;
 let user = ['You', 'Computer'];
 let canPlay = true;
 
-/** get Computer Choice for game */
+/**
+ * Function to randomly select a number and generate the computers choice
+ * @returns the computers answer
+ */
 function getCpuHand() {
     const hands = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
     const randomNumber = Math.floor(Math.random() * 5);
     return hands[randomNumber];
 }
 
+
 let isGameOver = (score) => {
     return userScore === 10 || cpuScore === 10 
 }
 
+/**
+ * function to disable the buttons and prevent spam clicks
+ */
 function disableButtons() {
     const buttons = document.querySelectorAll('.hand');
     buttons.forEach(button => button.disabled = true);
     canPlay = false;
 }
 
+/**
+ * Function to enable the buttons
+ */
 function enableButtons() {
     const buttons = document.querySelectorAll('.hand');
     buttons.forEach(button => button.disabled = false);
     canPlay = true;
 }
 
-
+/**
+ * function that determines who wins the game
+ */
 function gameOver() {
     let winner = userScore === 10 ? user[0] : user[1];
     results_p.innerHTML = 'Game Over';
@@ -58,6 +70,12 @@ function gameOver() {
     });
 }
 
+/**
+ * Function that determines if the user wins the round
+ * @param {string} userHand 
+ * @param {String} cpuHand 
+ * @returns a message to let the user know they have won 
+ */
 function win(userHand, cpuHand) {
     userScore++;
     const userHand_div = document.getElementById(userHand);
@@ -78,6 +96,12 @@ function win(userHand, cpuHand) {
     }
 }
 
+/**
+ * Function that determines if the user looses against the computer
+ * @param {string} userHand 
+ * @param {String} cpuHand 
+ * @returns A message to let the user know they have lost the round
+ */
 function loose(userHand, cpuHand) {
     cpuScore++;
     const userHand_div = document.getElementById(userHand);
@@ -97,7 +121,12 @@ function loose(userHand, cpuHand) {
         return gameOver();
     }
 }
-
+/**
+ * Fucntion that determines if the user and the computer draw the same round
+ * @param {string} userHand 
+ * @param {string} cpuHand 
+ * @returns a string to say the hands draw
+ */
 function draw(userHand, cpuHand) {
     const userHand_div = document.getElementById(userHand);
     userScore_span.innerHTML = userScore;
@@ -117,6 +146,11 @@ function draw(userHand, cpuHand) {
     }
 }
 
+/**
+ * Function that enables the user to play the game
+ * @param {string} userHand 
+ * @returns 
+ */
 function game(userHand) {
     if (!canPlay || isGameOver()) {
         return;
@@ -161,6 +195,9 @@ disableButtons();
 
 }
 
+/**
+ * function to provide the listeners for the user buttons
+ */
 function main () {
     rock_div.addEventListener("click", () => game("Rock"));
     paper_div.addEventListener("click", () => game("Paper"));
