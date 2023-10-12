@@ -31,8 +31,10 @@ header {
 }
 
 /* User Buttons */
-img {
-    max-height: 100px;
+.hands {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .hand {
@@ -44,15 +46,13 @@ img {
     transition: all 0.3s ease;
 }
 
-.hands {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
 .hand:hover {
     background-color: #011638;
     cursor: pointer;
+}
+
+img {
+    max-height: 100px;
 }
 
 /* Changing button border colors */
