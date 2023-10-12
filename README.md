@@ -100,7 +100,7 @@ Each colour has a slightly different shade to look as if the icons border is glo
 
 ### Typography
 
-For the project I used the font Press Start 2P which I found while searching on [Goolgle Fonts](https://fonts.google.com/). I chose this font as it has reminds me of a retro game design which seemed fitting for my first more gamified project.
+For the project I used the font Press Start 2P which I found while searching on [Google Fonts](https://fonts.google.com/). I chose this font as it has reminds me of a retro game design which seemed fitting for my first more gamified project.
 ![Screenshot of my title](/assets/images/title.jpeg).
 
 I used the same font across the website for added consistency as it makes for a more uniform design.
