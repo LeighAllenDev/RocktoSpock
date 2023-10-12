@@ -30,8 +30,8 @@ function getCpuHand() {
  * @returns stop game if score limit reached
  */
 let isGameOver = (score) => {
-    return userScore === 10 || cpuScore === 10 
-}
+    return userScore === 10 || cpuScore === 10;
+};
 
 /**
  * function to disable the buttons and prevent spam clicks
@@ -93,7 +93,7 @@ function win(userHand, cpuHand) {
         allowOutsideClick: false,
         showConfirmButton: false,
         timer: 1500
-      })
+      });
     userHand_div.classList.add('green-border');
     setTimeout(() => userHand_div.classList.remove('green-border'), 1500);
     if (isGameOver()) {
@@ -120,7 +120,7 @@ function loose(userHand, cpuHand) {
         allowOutsideClick: false,
         showConfirmButton: false,
         timer: 1500
-      })
+      });
     userHand_div.classList.add('red-border');
     setTimeout(() => userHand_div.classList.remove('red-border'), 1500);
     if (isGameOver()) {
@@ -145,7 +145,7 @@ function draw(userHand, cpuHand) {
         allowOutsideClick: false,
         showConfirmButton: false,
         timer: 1500
-      })
+      });
     userHand_div.classList.add('grey-border');
     setTimeout(() => userHand_div.classList.remove('grey-border'), 1500);
     if (isGameOver()) {
