@@ -101,7 +101,7 @@ Each colour has a slightly different shade to look as if the icons border is glo
 ### Typography
 
 For the project I used the font Press Start 2P which I found while searching on [Google Fonts](https://fonts.google.com/). I chose this font as it has reminds me of a retro game design which seemed fitting for my first more gamified project.
-![Screenshot of my title](/assets/images/title.jpeg).
+![Screenshot of my title](/assets/images/title.jpeg)
 
 I used the same font across the website for added consistency as it makes for a more uniform design.
 
@@ -154,6 +154,13 @@ During the testing phase it turned out that the buttons were spam-clickable, thi
 
 There was a bug in my code So that 2 of the possible outcomes were missing, this also caused the game to stop working. This, again was picked up by my Mentor and I was able to add the missing outcomes into the code which prevented this issue from happening again. 
 
+### Bugs
+If you find a bug in my code please let me know! This is my first JS project so I wouldn't be surprised if there are some.
+
+A known bug is the responsiveness of the site. I have tested this site on 4 smartphones and the icons have appeared slightly missaligned on each of them at different times. 
+
+I have tested this site on AmIResponsive and it shows up differently on that than it does on any device I've tested it with.
+
 ## Deployment
 I deployed my site onto **GitHub Pages** using the following steps:
 1. Open GitHub projects repository and click on the **Settings** tab at the top.
@@ -164,13 +171,30 @@ I deployed my site onto **GitHub Pages** using the following steps:
 The live website can be found by following the URL - https://leighAllenDev.github.io/RocktoSpock
 
 ## Technologies
+This entire project was built using 3 programming languages:
+* HTML - HyperText Mark-up Language
+* CSS - Cascading Style Sheets
+* JavaScript
+
+The Project was built with VS Code and the repository hosted by GitHub
 
 ## Credits
 
 ### Honorable Mentions
+My Mentor for my Code Institute course, Richard Wells has been a great help during this project with debugging and general advice.
 
+I would also have to mention my class mates on Slack who have been really helpful during this course so far.
 
 ### General Reference
+To complete this project I watched a few youtube tutorials, one specifically that helped is the Rock Paper Scissors tutorial with FreeCodeCamp:
+
+ [JavaScript, HTML, CSS - Rock Paper Scissors Game](https://www.youtube.com/watch?v=jaVNP3nIAv0)
+
+This tutorial inspired a lot of the workings of my site so credit goes to them for this project. 
+
+Another site I found extremely helpful for this project was **Stack Overflow**. Specifically this article [Stack OverFlow - JavaScript Endgame](https://stackoverflow.com/questions/64283015/vanilla-javascript-end-game-when-player-reaches-a-certain-score)
+
+For this project I also relied on MDN Webdocs and w3Schools.
 
 ### Content
 
