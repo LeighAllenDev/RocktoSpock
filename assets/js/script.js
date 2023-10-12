@@ -86,6 +86,7 @@ function win(userHand, cpuHand) {
         position: 'center',
         icon: 'success', 
         title: 'You Win!',
+        allowOutsideClick: false,
         showConfirmButton: false,
         timer: 1500
       })
@@ -112,6 +113,7 @@ function loose(userHand, cpuHand) {
         position: 'center',
         icon: 'error',
         title: 'You Loose',
+        allowOutsideClick: false,
         showConfirmButton: false,
         timer: 1500
       })
@@ -136,6 +138,7 @@ function draw(userHand, cpuHand) {
         position: 'center',
         icon: 'info',
         title: "It's a draw...",
+        allowOutsideClick: false,
         showConfirmButton: false,
         timer: 1500
       })
